@@ -43,6 +43,7 @@ Show some ❤️ by starring ⭐ this repository if you like it!
 <!-- Recent Plays -->
 | Date | Player | Message | Game Mode | Score | Status |
 |------|--------|---------|-----------|-------|--------|
+| 02/22/2026 15:38 (UTC 7) | [<img src="https://avatars.githubusercontent.com/u/262967460?s=24&v=4" alt="yamihq" width="24" /> yamihq](https://github.com/yamihq) |  | Easy | 24 | Game Over |
 | 11/14/2025 10:09 (UTC 7) | [<img src="https://avatars.githubusercontent.com/u/98199185?s=24&u=813b5906b2da04bd7c9f899d07d8855d978e0762&v=4" alt="ChunhThanhDe" width="24" /> ChunhThanhDe](https://github.com/ChunhThanhDe) |  | Easy | 39 | Game Over |
 | 11/06/2024 23:43 (UTC 7) | [<img src="https://avatars.githubusercontent.com/u/98199185?s=24&u=ff2f94e018cf438e3fb2885d3488ceb695bed70b&v=4" alt="ChunhThanhDe" width="24" /> ChunhThanhDe](https://github.com/ChunhThanhDe) | make a game before bed | Easy | 91 | Win |
 | 11/18/2024 08:25 (UTC 7) | [<img src="https://avatars.githubusercontent.com/u/84318986?s=24&v=4" alt="NguyenVinhKhang" width="24" /> NguyenVinhKhang](https://github.com/NguyenVinhKhang) |  | Easy | 3 | Game Over |
