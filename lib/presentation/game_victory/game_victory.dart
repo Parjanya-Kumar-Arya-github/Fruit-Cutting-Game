@@ -7,8 +7,9 @@
 import 'dart:ui';
 import 'dart:async';
 // ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html;
 import 'dart:io';
+import 'package:fruit_cutting_game/common/helpers/image_saver_stub.dart'
+    if (dart.library.html) 'package:fruit_cutting_game/common/helpers/image_saver_web.dart';
 
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
@@ -225,12 +226,7 @@ class GameVictoryPage extends Component with TapCallbacks, HasGameReference<Main
       Uint8List pngBytes = byteData!.buffer.asUint8List();
 
       if (kIsWeb) {
-        final blob = html.Blob([pngBytes]);
-        final url = html.Url.createObjectUrlFromBlob(blob);
-        final anchor = html.AnchorElement(href: url)
-          ..setAttribute("download", "screenshot.png")
-          ..click();
-        html.Url.revokeObjectUrl(url);
+        saveImageWeb(pngBytes);
       } else {
         final directory = await getApplicationDocumentsDirectory();
         final imagePath = '${directory.path}/screenshot.png';

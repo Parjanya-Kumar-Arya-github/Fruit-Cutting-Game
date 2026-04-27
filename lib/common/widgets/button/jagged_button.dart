@@ -142,7 +142,7 @@ class JaggedButton extends PositionComponent with TapCallbacks {
   /// Draws normal borders for the other edges of the button.
   void drawNormalBorders(Canvas canvas) {
     // Draw normal border for the left edge
-    canvas.drawLine(Offset(0, 0), Offset(0, size.y), _borderPaint);
+    canvas.drawLine(const Offset(0, 0), Offset(0, size.y), _borderPaint);
     // Draw normal border for the right edge
     canvas.drawLine(Offset(size.x, 0), Offset(size.x, size.y), _borderPaint);
     // Draw normal border for the bottom edge (only if not bottom jagged)
